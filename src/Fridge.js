@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
 export default class extends Component {
-    constructor() {
-        super()
-        console.log('Fridge.constructor()')
+    constructor(props) {
+        super(props)
+        console.log('Fridge.constructor()', props)
     }
 
     componentWillMount() {
