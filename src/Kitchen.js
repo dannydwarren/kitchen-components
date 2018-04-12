@@ -23,7 +23,7 @@ class Kitchen extends Component {
                 <header>
                     <h1>{this.props.name}</h1>
                 </header>
-                <Microwave powerIsOn={this.props.powerIsOn} />
+                <Microwave powerIsOn={this.props.powerIsOn} funny='not really' />
                 <Fridge powerIsOn={this.props.powerIsOn} />
             </div>
         )

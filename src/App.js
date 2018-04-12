@@ -10,7 +10,7 @@ class App extends Component {
 
   constructor() {
     super()
-    console.log('App.constructor()')
+    console.log('App.constructor()', 'state:', this.state)
   }
 
   componentWillMount() {

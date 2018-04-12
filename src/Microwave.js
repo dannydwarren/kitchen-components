@@ -1,9 +1,17 @@
 import React, { Component } from 'react'
 
 export default class extends Component {
+    state = {
+        powerIsOn: false
+    }
+
     constructor(props) {
         super(props)
         console.log('Microwave.constructor()', props)
+
+        this.state.powerIsOn = props.powerIsOn
+
+        console.log('Microwave.ctor() state:', this.state)
     }
 
     componentWillMount() {
